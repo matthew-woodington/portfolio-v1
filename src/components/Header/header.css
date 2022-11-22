@@ -1,0 +1,7 @@
+.checked, .un-checked {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 15;
+}
