@@ -1,0 +1,23 @@
+.intro-text {
+  font-size: clamp(var(--fz-sm),5vw,var(--fz-md));
+  color: var(--text-muted);
+  margin: 0px 0px 30px 4px;
+}
+
+.lg-head {
+  font-size: clamp(40px, 8vw, 80px);
+}
+
+.my-name {
+  color: var(--text-highlight);
+}
+
+.title {
+  color: var(--text-main);
+}
+
+.description {
+  color: var(--text-muted);
+  max-width: 540px;
+  margin-top: 20px;
+}

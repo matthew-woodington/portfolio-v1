@@ -1,10 +1,20 @@
 import './header.css'
 import React from 'react'
 
-function Header({ theme, toggleTheme }) {
+function Header() {
   return (
     <header className='header'>
-        navbar
+        <section className="logo">MW</section>
+        <section className="nav-links">
+          <ul className="navlist">
+            <li className='navlist-item'>About</li>
+            <li className='navlist-item'>Projects</li>
+            <li className='navlist-item'>Contact</li>
+            <li className='navlist-item'>
+              <button className="resume">Resume</button>
+            </li>
+          </ul>
+        </section>
     </header>
   )
 }
