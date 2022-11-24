@@ -1,0 +1,88 @@
+.left-tile {
+  width: 40px;
+  position: fixed;
+  bottom: 0px;
+  left: 40px;
+  right: auto;
+}
+
+/* .social-links::before {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 50px;
+  margin: 0px auto;
+  background-color: var(--text-main);
+} */
+
+.social-links::after {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 90px;
+  margin: 0px auto;
+  background-color: var(--text-main);
+}
+
+.link-item {
+  margin: 10px 0;
+  font-size: 22px;
+  padding: 10px;
+}
+
+.li-link {
+  /* padding: 10px; */
+}
+
+.right-tile {
+  width: 40px;
+  position: fixed;
+  bottom: 0px;
+  right: 40px;
+  left: auto;
+}
+
+.social-email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* .social-email::before {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 190px;
+  margin: 0px auto;
+  background-color: var(--text-main);
+} */
+
+.social-email::after {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 90px;
+  margin: 0px auto;
+  background-color: var(--text-main);
+}
+
+
+.email {
+  margin: 20px 0;
+  padding: 10px;
+  font-size: 15px;
+  writing-mode: vertical-lr;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  font-family: 'SourceCodePro';
+}
+
+.so-a {
+  color: var(--text-main);
+}
+
+.so-a:hover, .link-item:hover, .email:hover {
+  color: var(--text-highlight);
+  transform: translate(0px, -2px);
+}

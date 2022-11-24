@@ -9,10 +9,13 @@
   padding: 0px 50px;
   position: fixed;
   top: 0;
+  z-index: 30;
+  transition: var(--transition);
 }
 
 .header-scrolled {
-  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 30px -10px var(--bg-shadow);
+  height: 80px;
 }
 
 .navlist {
@@ -23,4 +26,12 @@
 
 .navlist-item {
   margin: 20px;
+}
+
+.navlist-item > a {
+  color: var(--text-main);
+}
+
+.navlist-item > a:hover {
+  color: var(--text-highlight);
 }
