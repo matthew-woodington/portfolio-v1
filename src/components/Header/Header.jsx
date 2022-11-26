@@ -19,6 +19,7 @@ function Header() {
     }
   }, [window.scrollY])
 
+
   return (
     <header className={navbar ? 'header header-scrolled' : 'header'}>
         <section className="logo">
@@ -26,11 +27,11 @@ function Header() {
         </section>
         <section className="nav-links">
           <ul className="navlist">
-            <li className='navlist-item'><a href="#about">About</a></li>
-            <li className='navlist-item'><a href="#projects">Projects</a></li>
-            <li className='navlist-item'><a href="#contact">Contact</a></li>
+            <li className='navlist-item'><a href="#about">about</a></li>
+            <li className='navlist-item'><a href="#projects">projects</a></li>
+            <li className='navlist-item'><a href="#contact">contact</a></li>
             <li className='navlist-item'>
-              <button className="resume highlight-button">Resume</button>
+              <button className="resume highlight-button">resume</button>
             </li>
           </ul>
         </section>

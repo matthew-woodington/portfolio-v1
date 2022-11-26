@@ -18,6 +18,10 @@
   height: 80px;
 }
 
+.hide {
+  transform: translateY(calc(80px) * -1);
+}
+
 .navlist {
   display: flex;
   justify-content: center;

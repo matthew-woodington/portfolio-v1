@@ -1,0 +1,39 @@
+.about {
+  align-items: flex-end;
+}
+
+.about-title {
+  font-size: clamp(40px, 8vw, 80px);
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  color: var(--text-main);
+}
+
+.intro {
+  font-size: clamp(var(--fz-sm),5vw,var(--fz-md));
+  color: var(--text-muted);
+  font-family: 'SourceCodePro';
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.image-container {
+  width: 400px;
+  height: 400px;
+  border: 2px solid var(--text-highlight);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.image {
+  width: 90%;
+  height: 90%;
+  object-fit: contain;
+  object-position: center;
+}

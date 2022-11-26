@@ -6,15 +6,6 @@
   right: auto;
 }
 
-/* .social-links::before {
-  content: '';
-  display: block;
-  width: 1px;
-  height: 50px;
-  margin: 0px auto;
-  background-color: var(--text-main);
-} */
-
 .social-links::after {
   content: '';
   display: block;
@@ -49,15 +40,6 @@
   flex-direction: column;
 }
 
-/* .social-email::before {
-  content: '';
-  display: block;
-  width: 1px;
-  height: 190px;
-  margin: 0px auto;
-  background-color: var(--text-main);
-} */
-
 .social-email::after {
   content: '';
   display: block;
@@ -69,13 +51,14 @@
 
 
 .email {
-  margin: 20px 0;
+  margin: 5px 0;
   padding: 10px;
   font-size: 15px;
   writing-mode: vertical-lr;
   line-height: 18px;
   letter-spacing: 0.1em;
   font-family: 'SourceCodePro';
+  transform: translate(2px, 0px);
 }
 
 .so-a {
@@ -84,5 +67,19 @@
 
 .so-a:hover, .link-item:hover, .email:hover {
   color: var(--text-highlight);
-  transform: translate(0px, -2px);
+  transform: translate(2px, -2px);
+}
+
+.icon {
+  rotate: 90deg;
+  animation: bounce 0.5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  margin-bottom: 20px;
+}
+
+
+@keyframes bounce {
+  from { transform: translate3d(5px, 0, 0);}
+  to { transform: translate3d(0, 0, 0);}
 }
