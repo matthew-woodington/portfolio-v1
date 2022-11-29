@@ -3,19 +3,19 @@ import arrow from '../../assets/images/down-arrow-arrows-svgrepo-com.svg'
 import { useState, useEffect } from 'react'
 
 function HomePage() {
-  const [offsetY, setOffsetY] = useState(0)
+  // const [offsetY, setOffsetY] = useState(0)
 
-  const handleScroll = () => {
-    console.log(window.scrollY)
-    setOffsetY(window.scrollY)
-  };
+  // const handleScroll = () => {
+  //   console.log(window.scrollY)
+  //   setOffsetY(window.scrollY)
+  // };
 
-  useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll)
-    }
-  }, [window.scrollY])
+  // useEffect(() => {
+  //   window.addEventListener('scroll', handleScroll);
+  //   return () => {
+  //     window.removeEventListener('scroll', handleScroll)
+  //   }
+  // }, [window.scrollY])
 
 
   return (
