@@ -9,6 +9,7 @@
   color: var(--text-main);
   min-height: 100vh;
   background-color: var(--bg-color);
+  transition: all 2s ease-in-out;
 }
 
 * {
@@ -20,7 +21,7 @@
   scroll-behavior: smooth;
 }
 
-:root {
+#dark {
   --bg-color: #1b1b1e;
   --bg-shadow: #131314;
   --bg-opacity:#1b1b1ed9;
@@ -28,6 +29,21 @@
   --text-muted: #779CAB;
   --text-highlight: #69C8D6;
   --text-highlight-hover: #69c7d639;
+}
+
+#light {
+  --bg-color: #D8DBE2;
+  --bg-shadow: #b1b3b8;
+}
+
+:root {
+  /* --bg-color: #1b1b1e;
+  --bg-shadow: #131314;
+  --bg-opacity:#1b1b1ed9;
+  --text-main: #D8DBE2;
+  --text-muted: #779CAB;
+  --text-highlight: #69C8D6;
+  --text-highlight-hover: #69c7d639; */
   --fz-sm: 14px;
   --fz-md: 16px;
   --transition: all 0.25s cubic-bezier(0.65, 0.05, 0.36, 1);

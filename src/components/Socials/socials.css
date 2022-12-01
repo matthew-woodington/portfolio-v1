@@ -58,16 +58,17 @@
   line-height: 18px;
   letter-spacing: 0.1em;
   font-family: 'SourceCodePro';
-  transform: translate(2px, 0px);
+  transform: translate(0px, 0px);
 }
+
 
 .so-a {
   color: var(--text-main);
 }
 
-.so-a:hover, .link-item:hover, .email:hover {
+.so-a:hover, .link-item:hover {
   color: var(--text-highlight);
-  transform: translate(2px, -2px);
+  transform: translate(0px, -2px);
 }
 
 .icon {

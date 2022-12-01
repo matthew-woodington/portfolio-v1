@@ -17,8 +17,7 @@ function Socials() {
       </div>
       <div className='right-tile'>
         <div className='social-email' >
-          {/* <a className='email so-a' href="mailto:smwoodington@gmail.com">smwoodington@gmail.com</a> */}
-          <p className='email so-a'>scroll down</p><FiChevronsRight className='icon' />
+            <p className='email'>scroll down <FiChevronsRight className='icon' /></p>
         </div>
       </div>
     </>
