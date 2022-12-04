@@ -1,0 +1,51 @@
+.project-container {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: center;
+}
+
+.ex-image-container {
+  position: relative;
+  grid-area: 1 / 6 / -1 / -1;
+  max-width: 700px;
+  vertical-align: middle;
+}
+
+.project-info {
+  position: relative;
+  grid-area: 1 / 1 / -1 / 7;
+}
+
+.ex-image {
+  width: 100%;
+  display: block;
+  position: static;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  mix-blend-mode: multiply;
+  filter: grayscale(100%);
+}
+
+.image-link {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: var(--text-highlight);
+  border-radius: 5px;
+  vertical-align: middle;
+}
+
+.image-link:before {
+  content: '';
+  position: absolute;
+  inset: 0px;
+  z-index: 3;
+  transition: var(--transition);
+  background-color: var(--bg-color);
+  mix-blend-mode: screen;
+}
+
