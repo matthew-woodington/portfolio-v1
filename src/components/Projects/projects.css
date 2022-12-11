@@ -2,6 +2,13 @@
   margin-top: 25vh;
 } */
 
+.projects-title {
+  font-size: clamp(40px, 8vw, 80px);
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  color: var(--text-main);
+  margin-bottom: 20px;
+}
+
 .project {
   display: grid;
   position: relative;
@@ -30,8 +37,6 @@
   grid-column: 1 / 8;
 }
 
-
-
 .project-info {
   display: block;
   z-index: 20;
@@ -43,9 +48,16 @@
 
 .project-info > p {
   padding: 20px;
-  background-color: var(--bg-shadow);
+  background-color: var(--bg-box);
   border-radius: 10px;
   /* box-shadow: 0 10px 30px -15px var(--bg-shadow); */
+}
+
+.project-title {
+  color: var(--text-highlight);
+  font-family: 'SourceCodePro';
+  font-size: 25px;
+  margin-bottom: 10px;
 }
 
 .project-image > a {
@@ -77,4 +89,26 @@
 
 .img:hover {
   filter: grayscale(0%) contrast(1) blur(0px);
+}
+
+.project-links {
+  display: flex;
+  margin: 10px;
+  gap: 10px;
+}
+
+.project-icon {
+  font-size: 22px;
+}
+
+.project-icon > a {
+  color: var(--text-main);
+}
+
+.project-icon > a:hover, .project-icon:hover {
+  color: var(--text-highlight);
+}
+
+.link-right {
+  justify-content: flex-end;
 }
