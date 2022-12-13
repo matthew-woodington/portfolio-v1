@@ -26,21 +26,23 @@
   --bg-box: #313134;
   --bg-shadow: #131314;
   --bg-opacity:#1b1b1ed9;
+  --bg-card-hover: #69c7d6ca;
   --text-main: #D8DBE2;
   --text-muted: #779CAB;
   --text-highlight: #69C8D6;
   --text-highlight-hover: #69c7d639;
 }
 
-#light {
+/* #light {
   --bg-color: #D8DBE2;
   --bg-shadow: #b1b3b8;
   --bg-opacity:#d8dbe2ae;
   --text-main: #1b1b1e;
   --text-muted: #779CAB;
   --text-highlight: #69C8D6;
+  --bg-card-hover: #69c7d6c4;
   --text-highlight-hover: #69c7d639;
-}
+} */
 
 :root {
   --fz-sm: 14px;
