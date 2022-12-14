@@ -4,6 +4,7 @@ import newspaper from '../../assets/images/newspaper.png'
 import pixel from '../../assets/images/pixel-perfect.png'
 import {FiGithub} from 'react-icons/fi'
 import {FiExternalLink} from 'react-icons/fi'
+import {FiVideo} from 'react-icons/fi'
 
 function Projects() {
 
@@ -34,6 +35,7 @@ function Projects() {
                     <div className="overlay-links">
                       <a class="hover" href="https://github.com/matthew-woodington/ccs-final-project" target='_blank' rel="noreferrer"><FiGithub className='hover-icon' /></a>
                       <a class="hover" href="https://ccs-final-project-woodington.herokuapp.com/" target='_blank' rel="noreferrer"><FiExternalLink className='hover-icon' /></a>
+                      <a class="hover" href="https://www.loom.com/share/13395b0c5ab14cf6a1347fd1c836559a" target='_blank' rel="noreferrer"><FiVideo className='hover-icon' /></a>
                     </div>
                   </div>
               </div>
