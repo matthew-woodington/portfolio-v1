@@ -1,12 +1,15 @@
 .intro-text {
-  font-size: clamp(var(--fz-sm),5vw,var(--fz-md));
+  /* font-size: clamp(var(--fz-sm),5vw,var(--fz-md)); */
   color: var(--text-muted);
   margin: 0px 0px 20px 4px;
+  /* font-family: 'Inter', Arial, Helvetica, sans-serif; */
   font-family: 'SourceCodePro';
 }
 
 .lg-head {
   font-size: clamp(40px, 8vw, 80px);
+  /* font-family: 'SourceCodeProBold'; */
+  /* word-spacing: -0.3em; */
   font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
 
@@ -23,6 +26,7 @@
   max-width: 540px;
   margin-top: 20px;
   font-family: 'SourceCodePro';
+  /* font-family: 'Inter', Arial, Helvetica, sans-serif; */
 }
 
 

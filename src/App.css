@@ -5,6 +5,11 @@
   src: url('/src/assets/fonts/SourceCodePro-Regular.ttf');
 }
 
+@font-face {
+  font-family: SourceCodeProBold;
+  src: url('/src/assets/fonts/SourceCodePro-Bold.ttf');
+}
+
 .App {
   color: var(--text-main);
   min-height: 100vh;
@@ -26,6 +31,7 @@
   --fz-sm: 14px;
   --fz-md: 16px;
   --transition: all 0.25s cubic-bezier(0.65, 0.05, 0.36, 1);
+  --hide: all 500ms ease-in-out;;
   --bg-color: #1b1b1e;
   --bg-box: #1f1f21;
   --bg-shadow: #131314;

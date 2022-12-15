@@ -5,6 +5,15 @@
   margin-bottom: 40px;
 }
 
+.projects-title {
+  font-size: clamp(30px, 8vw, 60px);
+  font-family: 'SourceCodePro';
+  color: var(--text-main);
+  width: 100%;
+  text-align: left;
+  margin-bottom: 35px;
+}
+
 .project-num {
   grid-column: 2 / 4;
 
@@ -58,6 +67,7 @@
 .card-content {
   margin: auto 0;
   font-family: 'SourceCodePro';
+  transition: var(--transition);
 }
 
 .img {
@@ -66,6 +76,7 @@
   border-radius: 10px;
   object-fit: cover;
   object-position: center;
+  transition: var(--transition);
 }
 
 .overlay {
@@ -122,6 +133,7 @@
   align-items: center;
   justify-content: center;
   margin: 10px;
+  transition: var(--transition);
 }
 
 .frameworks {
@@ -138,7 +150,6 @@
   background-color: var(--text-highlight);
   color: var(--bg-color);
   scale: 1.1;
-  transition: var(--transition);
 }
 
 .hover-icon {
@@ -147,7 +158,6 @@
 
 .project-card:hover .overlay {
   transform: translateY(0px);
-  transition: var(--transition);
 }
 
 .project-card:hover .card-content {
@@ -166,6 +176,15 @@
   transition: var(--transition);
 }
 
+/* more */
+.other-title {
+  font-size: clamp(30px, 8vw, 60px);
+  font-family: 'SourceCodePro';
+  color: var(--text-main);
+  width: 100%;
+  text-align: right;
+  margin-bottom: 35px;
+}
 
 .more-projects {
   display: flex;

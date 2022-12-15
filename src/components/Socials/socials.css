@@ -4,6 +4,7 @@
   bottom: 0px;
   left: 40px;
   right: auto;
+  transition: var(--hide);
 }
 
 .social-links::after {
@@ -21,16 +22,13 @@
   padding: 10px;
 }
 
-.li-link {
-  /* padding: 10px; */
-}
-
 .right-tile {
   width: 40px;
   position: fixed;
   bottom: 0px;
   right: 40px;
   left: auto;
+  transition: var(--hide);
 }
 
 .social-email {
@@ -83,4 +81,9 @@
 @keyframes bounce {
   from { transform: translate3d(5px, 0, 0);}
   to { transform: translate3d(0, 0, 0);}
+}
+
+.hide {
+  scale: 2;
+  transform: translateY(100%);
 }

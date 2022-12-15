@@ -7,7 +7,7 @@ function MoreProjects() {
   return (
     <section className='main-section more-projects'>
       
-      <h1>Other Projects</h1>
+      <h1 className='other-title'>// Other Projects //</h1>
 
       <ul className="other-projects-list">
 

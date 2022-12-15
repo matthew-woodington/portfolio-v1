@@ -10,7 +10,7 @@ function Projects() {
 
   return (
     <section id='projects' className='main-section'>
-      <h1 className="projects-title">Highlighted Projects</h1>
+      <h1 className="projects-title">// My Work //</h1>
 
       <ul className="project-list">
 

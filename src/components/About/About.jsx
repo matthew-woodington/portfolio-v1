@@ -4,11 +4,22 @@ import meJPG from '../../assets/images/IMG_3904-1.JPG'
 function About() {
   return (
     <section id="about" className='main-section about'>
-      <h1 className="about-title">I love building things.</h1>
+      <h1 className="about-title">// About Me //</h1>
       <div className="about-content">
         <section className="text">
-          <h5 className='intro'>About Me</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Hello, I'm <span className='highlight'>Matthew</span> or <span className='highlight'>Matt</span>! I am a recent coding bootcamp graduate based out of North/South Carolina. I decided to switch careers to software development around a year ago and I haven't looked back.</p>
+          <p>Throughout my time in code school along with an informal background around graphic design I developed a passion for front end development as well as UI/UX design.</p>
+          <p>I am currently working to expand and hone my front end development and design skills.</p>
+          <p>Technologies I have recently worked with:</p>
+          <ul className='tech-list'>
+            <li className='tech-item'>React</li>
+            <li className='tech-item'>Django</li>
+            <li className='tech-item'>JavaScript</li>
+            <li className='tech-item'>Python</li>
+            <li className='tech-item'>HTML</li>
+            <li className='tech-item'>CSS</li>
+            <li className='tech-item'>Git</li>
+          </ul>
         </section>
         <section className="image-container">
           <img className='image' src={meJPG} alt="" />
