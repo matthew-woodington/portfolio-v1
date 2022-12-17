@@ -39,13 +39,17 @@
   --bg-card-hover: #69c7d6ca;
   --text-main: #D8DBE2;
   --text-muted: #a9bcc4;
-  --text-highlight: #69C8D6;
+  --text-highlight: #69c8d6;
   --text-highlight-hover: #69c7d639;
 }
 
 .main-pages {
   min-height: 100vh;
   padding: 0px 150px;
+}
+
+.blur {
+  filter: blur(2px);
 }
 
 .main-section {
@@ -70,4 +74,20 @@
 
 .highlight-button:hover {
   background-color: var(--text-highlight-hover);
+}
+
+@media (max-width: 1080px) {
+  .main-pages {
+      padding: 0px 100px;
+  }
+}
+@media (max-width: 768px) {
+  .main-pages {
+      padding: 0px 50px;
+  }
+}
+@media (max-width: 480px) {
+  .main-pages {
+      padding: 0px 25px;
+  }
 }

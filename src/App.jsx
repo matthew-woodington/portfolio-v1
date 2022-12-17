@@ -11,6 +11,19 @@ import Footer from "./components/Footer/Footer";
 
 function App() {
   const [contactVisible, setContactVisible] = useState()
+  const [navView, setNavView] = useState(false)
+
+  const changeNavView = () => {
+    if (!navView) {
+      setNavView(true)
+    } else {
+      setNavView(false)
+    }
+  }
+
+  const closeNav = () => {
+    setNavView(false)
+  }
 
   const myRef = useRef();
 
@@ -26,8 +39,8 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
-      <section className="main-pages">
+      <Header navView={navView} changeNavView={changeNavView} closeNav={closeNav} />
+      <section className={navView ? "main-pages blur" : "main-pages"}>
         <Socials contactVisible={contactVisible} />
         <HomePage />
         <About />

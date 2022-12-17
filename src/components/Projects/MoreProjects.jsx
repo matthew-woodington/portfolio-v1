@@ -71,12 +71,13 @@ function MoreProjects() {
                 </div>
               </div>
               <h2>GitHub Recreation</h2>
-              <p>Recreation of the GitHub repository page using React.JS and JavaScript fetch requests to update repository list with live data from GitHub.</p>
+              <p>Recreation of the GitHub repository page using JavaScript fetch requests to update repository list with live data from GitHub.</p>
             </div>
             <div className="other-card-footer">
               <ul className="other-frameworks">
-                <li>React.JS</li>
+                <li>JavaScript</li>
                 <li>Bootstrap</li>
+                <li>HTML</li>
                 <li>CSS</li>
               </ul>
             </div>

@@ -284,3 +284,100 @@
 .view-more {
   margin-top: 40px;
 }
+
+.project-list-mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .project-list {
+    display: none;
+  }
+
+  .project-list-mobile {
+    display: block;
+  }
+
+  .mobile-project {
+    position: relative;
+    width: 100%;
+    min-height: 60vh;
+    background-color: var(--bg-box);
+    box-shadow: 0 10px 10px 0 var(--bg-shadow);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 40px;
+  }
+
+  .mobile-num {
+    position: absolute;
+    font-family: 'SourceCodeProBold';
+    font-size: 30px;
+    margin: auto;
+    background-color: var(--text-highlight);
+    padding: 10px;
+  }
+
+  .left-num {
+    top: 0px;
+    left: 0px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .right-num {
+    top: 0px;
+    right: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .num-mob {
+    color: var(--bg-color);
+  }
+
+  .dot-mob {
+    color: var(--text-main);
+  }
+
+  .mobile-img {
+    height: 30%;
+  }
+
+  .mobile-card-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .mobile-card-info > h2 {
+    font-size: 22px;
+    font-family: 'SourceCodePro';
+    margin-bottom: 10px;
+    text-align: left;
+    width: 100%;
+    margin: 10px 0px;
+  }
+
+  .mobile-card-info > p {
+    font-size: 17px;
+    color: var(--text-muted);
+    margin-bottom: 20px;
+  }
+
+  .frameworks-mob {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px 20px;
+    font-family: 'SourceCodePro';
+    font-size: 12px;
+    text-align: center;
+    color: var(--text-highlight);
+    margin-bottom: 20px;
+  }
+}
