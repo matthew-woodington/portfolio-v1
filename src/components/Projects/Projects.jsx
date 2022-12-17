@@ -173,7 +173,7 @@ function Projects() {
           </div>
           <div className="mobile-card">
               <div class="mobile-img">
-                <img className='img' src={newspaper} alt="" />
+                <img className='img' src={pixel} alt="" />
               </div>
               <div class="mobile-card-info">
                 <h2>Pixel Perfect</h2>
