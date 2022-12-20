@@ -1,6 +1,6 @@
 .about-title {
   font-size: clamp(30px, 8vw, 60px);
-  font-family: 'SourceCodePro';
+  font-family: 'SourceCodePro', 'Courier New', Courier, monospace;
   color: var(--text-main);
   width: 100%;
   text-align: right;
@@ -10,7 +10,7 @@
 .intro {
   font-size: clamp(var(--fz-sm),5vw,var(--fz-md));
   color: var(--text-muted);
-  font-family: 'SourceCodePro';
+  font-family: 'SourceCodePro', 'Courier New', Courier, monospace;
 }
 
 .about-content {
@@ -92,7 +92,7 @@
   /* list-style-type: '// '; */
   color: var(--text-highlight);
   font-size: var(--fz-sm);
-  font-family: 'SourceCodePro';
+  font-family: 'SourceCodePro', 'Courier New', Courier, monospace;
 }
 
 .tech-item::before {

@@ -8,7 +8,7 @@
 
 .footer > p {
   font-size: var(--fz-sm);
-  font-family: 'SourceCodePro';
+  font-family: 'SourceCodePro', 'Courier New', Courier, monospace;
 }
 
 .portfolio-git {

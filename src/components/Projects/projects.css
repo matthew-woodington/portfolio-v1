@@ -7,7 +7,7 @@
 
 .projects-title {
   font-size: clamp(30px, 8vw, 60px);
-  font-family: 'SourceCodePro';
+  font-family: 'SourceCodePro', 'Courier New', Courier, monospace;
   color: var(--text-main);
   width: 100%;
   text-align: left;
@@ -18,7 +18,7 @@
   grid-column: 2 / 4;
 
   font-size: clamp(40px, 8vw, 80px);
-  font-family: 'SourceCodePro';
+  font-family: 'SourceCodePro', 'Courier New', Courier, monospace;
   margin: auto;
 }
 
@@ -66,7 +66,7 @@
 
 .card-content {
   margin: auto 0;
-  font-family: 'SourceCodePro';
+  font-family: 'SourceCodePro', 'Courier New', Courier, monospace;
   transition: var(--transition);
 }
 
@@ -102,7 +102,7 @@
 }
 
 .overlay-content > h2 {
-  font-family: 'SourceCodePro';
+  font-family: 'SourceCodePro', 'Courier New', Courier, monospace;
   align-self: flex-start;
   margin-bottom: 10px;
   padding: 0 10px;
@@ -140,7 +140,7 @@
   display: flex;
   width: 100%;
   justify-content: space-around;
-  font-family: 'SourceCodePro';
+  font-family: 'SourceCodePro', 'Courier New', Courier, monospace;
   color: var(--bg-color);
   font-size: 12px;
   margin-bottom: 20px;
@@ -179,7 +179,7 @@
 /* more */
 .other-title {
   font-size: clamp(30px, 8vw, 60px);
-  font-family: 'SourceCodePro';
+  font-family: 'SourceCodePro', 'Courier New', Courier, monospace;
   color: var(--text-main);
   width: 100%;
   text-align: right;
@@ -230,7 +230,7 @@
 
 .other-card-main > h2 {
   font-size: 22px;
-  font-family: 'SourceCodePro';
+  font-family: 'SourceCodePro', 'Courier New', Courier, monospace;
   margin-bottom: 10px;
 }
 
@@ -272,7 +272,7 @@
 .other-frameworks {
   display: flex;
   align-items: flex-end;
-  font-family: 'SourceCodePro';
+  font-family: 'SourceCodePro', 'Courier New', Courier, monospace;
   color: var(--text-highlight);
   font-size: 12px;
 }
@@ -311,7 +311,7 @@
 
   .mobile-num {
     position: absolute;
-    font-family: 'SourceCodeProBold';
+    font-family: 'SourceCodeProBold', 'Courier New', Courier, monospace;
     font-size: 30px;
     margin: auto;
     background-color: var(--text-highlight);
@@ -354,7 +354,7 @@
 
   .mobile-card-info > h2 {
     font-size: 22px;
-    font-family: 'SourceCodePro';
+    font-family: 'SourceCodePro', 'Courier New', Courier, monospace;
     margin-bottom: 10px;
     text-align: left;
     width: 100%;
@@ -374,7 +374,7 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px 20px;
-    font-family: 'SourceCodePro';
+    font-family: 'SourceCodePro', 'Courier New', Courier, monospace;
     font-size: 12px;
     text-align: center;
     color: var(--text-highlight);

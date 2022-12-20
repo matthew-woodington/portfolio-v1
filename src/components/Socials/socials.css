@@ -55,7 +55,7 @@
   writing-mode: vertical-lr;
   line-height: 18px;
   letter-spacing: 0.1em;
-  font-family: 'SourceCodePro';
+  font-family: 'SourceCodePro', 'Courier New', Courier, monospace;
   transform: translate(0px, 0px);
 }
 

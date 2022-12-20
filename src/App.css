@@ -67,7 +67,7 @@
   background-color: transparent;
   border: 1px solid var(--text-highlight);
   color: var(--text-highlight);
-  font-family: 'SourceCodePro';
+  font-family: 'SourceCodePro', 'Courier New', Courier, monospace;
   padding: 10px 15px;
   border-radius: 5px;
 }

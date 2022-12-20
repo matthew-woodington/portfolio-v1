@@ -23,7 +23,7 @@ function MoreProjects() {
                 </div>
               </div>
               <h2>JS Calculator</h2>
-              <p>Calculator based on the ios calculator app built to perform basic calculator functions using JavaScript.</p>
+              <p>Calculator based on the ios calculator app that is built to perform basic calculator functions using JavaScript.</p>
             </div>
             <div className="other-card-footer">
               <ul className="other-frameworks">
@@ -71,7 +71,7 @@ function MoreProjects() {
                 </div>
               </div>
               <h2>GitHub Recreation</h2>
-              <p>Recreation of the GitHub repository page using JavaScript fetch requests to update repository list with live data from GitHub.</p>
+              <p>Recreation of the GitHub repository page. Uses JavaScript fetch requests to update repository list with live data from GitHub.</p>
             </div>
             <div className="other-card-footer">
               <ul className="other-frameworks">

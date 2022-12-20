@@ -25,7 +25,7 @@ function Projects() {
                 <div class="overlay">
                   <div class="overlay-content">
                     <h2>REPS Application</h2>
-                    <p>REPS is a full stack application developed for trainers to customize a profile and market themselves and connect with local clientele. The application also functions as a managemant tool to allow trainers to manage those clients and their scheduled sessions in various ways.</p>
+                    <p>REPS is a full-stack application developed for trainers to customize a profile and market themselves to connect with local clientele. The application also functions as a managemant tool to allow trainers to manage those clients and their scheduled sessions in various ways.</p>
                     <ul className="frameworks">
                       <li>React.JS</li>
                       <li>Django</li>
@@ -56,7 +56,7 @@ function Projects() {
                 <div class="overlay">
                   <div class="overlay-content">
                     <h2>Newspaper Application</h2>
-                    <p>This Newspaper Application is a full-stack news article management application. The application allows a user to view news articles as well as create an account and submit their own articles for review by an admin that can then choose whether or not to publish those articles.</p>
+                    <p>This Newspaper Application is a full-stack news article management application. The application allows a user to view news articles as well as create an account and submit their articles for review by an admin that can then choose whether or not to publish those articles.</p>
                     <ul className="frameworks">
                       <li>React.JS</li>
                       <li>Django</li>
@@ -127,7 +127,7 @@ function Projects() {
               </div>
               <div class="mobile-card-info">
                 <h2>REPS Application</h2>
-                <p>REPS is a full stack application developed for trainers to customize a profile and market themselves and connect with local clientele. The application also functions as a managemant tool to allow trainers to manage those clients and their scheduled sessions in various ways.</p>
+                <p>REPS is a full-stack application developed for trainers to customize a profile and market themselves to connect with local clientele. The application also functions as a managemant tool to allow trainers to manage those clients and their scheduled sessions in various ways.</p>
                 <ul className="frameworks-mob">
                   <li>React.JS</li>
                   <li>Django</li>
@@ -153,7 +153,7 @@ function Projects() {
               </div>
               <div class="mobile-card-info">
                 <h2>Newspaper Application</h2>
-                <p>This Newspaper Application is a full-stack news article management application. The application allows a user to view news articles as well as create an account and submit their own articles for review by an admin that can then choose whether or not to publish those articles.</p>
+                <p>This Newspaper Application is a full-stack news article management application. The application allows a user to view news articles as well as create an account and submit their articles for review by an admin that can then choose whether or not to publish those articles.</p>
                 <ul className="frameworks-mob">
                   <li>React.JS</li>
                   <li>Django</li>

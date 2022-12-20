@@ -7,7 +7,7 @@
 
 .contact-title {
   font-size: clamp(30px, 8vw, 60px);
-  font-family: 'SourceCodePro';
+  font-family: 'SourceCodePro', 'Courier New', Courier, monospace;
   color: var(--text-main);
   width: 100%;
   text-align: left;
