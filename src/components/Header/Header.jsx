@@ -49,7 +49,7 @@ function Header({ navView, changeNavView, closeNav }) {
             <li className='navlist-item' onClick={navigate}><a href="#projects">// projects</a></li>
             <li className='navlist-item' onClick={navigate}><a href="#contact">// contact</a></li>
             <li className='navlist-item'>
-              <a className="highlight-button" target='_blank' href={resume} >resume</a>
+              <a className="highlight-button" target='_blank' rel="noreferrer" href={resume} >resume</a>
             </li>
           </ul>
         </section>

@@ -31,14 +31,14 @@
   transition: var(--hide);
 }
 
-.social-email {
+.scroll-el {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 
-.social-email::after {
+.scroll-el::after {
   content: '';
   display: block;
   width: 1px;
@@ -48,7 +48,7 @@
 }
 
 
-.email {
+.scroll {
   margin: 5px 0;
   padding: 10px;
   font-size: 15px;
