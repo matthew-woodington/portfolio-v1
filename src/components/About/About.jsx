@@ -4,6 +4,7 @@ import meJPG from '../../assets/images/IMG_3904-1.JPG'
 function About() {
   return (
     <section id="about" className='main-section about'>
+      {/* eslint-disable-next-line */}
       <h1 className="about-title">// About Me //</h1>
       <div className="about-content">
         <section className="text">

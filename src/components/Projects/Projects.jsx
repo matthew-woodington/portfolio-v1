@@ -10,6 +10,7 @@ function Projects() {
 
   return (
     <section id='projects' className='main-section'>
+      {/* eslint-disable-next-line */}
       <h1 className="projects-title">// My Work //</h1>
 
       <ul className="project-list">

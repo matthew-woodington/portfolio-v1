@@ -36,17 +36,21 @@ function Header({ navView, changeNavView, closeNav }) {
     return () => {
       window.removeEventListener('scroll', changeNavbar)
     }
-  }, [window.scrollY])
+  }, [])
 
   return (
     <header className={navbar ? 'header header-scrolled' : 'header'}>
         <section className="logo navlist-item" onClick={navigate}>
+          {/* eslint-disable-next-line */}
           <a href="#home">// matthew</a>
         </section>
         <section className={navView ? "nav-links show" : 'nav-links hidden'}>
           <ul className="navlist">
-            <li className='navlist-item' onClick={navigate}><a href="#about">// about</a></li>
-            <li className='navlist-item' onClick={navigate}><a href="#projects">// projects</a></li>
+            {/* eslint-disable-next-line */}
+            <li className='navlist-item' onClick={navigate}><a href="#about">// about</a></li> 
+            {/* eslint-disable-next-line */}
+            <li className='navlist-item' onClick={navigate}><a href="#projects">// projects</a></li> 
+            {/* eslint-disable-next-line */}
             <li className='navlist-item' onClick={navigate}><a href="#contact">// contact</a></li>
             <li className='navlist-item'>
               <a className="highlight-button" target='_blank' rel="noreferrer" href={resume} >resume</a>

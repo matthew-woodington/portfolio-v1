@@ -6,7 +6,7 @@ import {FiFolder} from 'react-icons/fi'
 function MoreProjects() {
   return (
     <section className='main-section more-projects'>
-      
+      {/* eslint-disable-next-line */}
       <h1 className='other-title'>// Other Projects //</h1>
 
       <ul className="other-projects-list">

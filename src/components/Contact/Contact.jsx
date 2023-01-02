@@ -7,6 +7,7 @@ import {FiCodepen} from 'react-icons/fi'
 function Contact({myRef}) {
   return (
     <section ref={myRef} id="contact" className='main-section contact-section'>
+      {/* eslint-disable-next-line */}
       <h1 className="contact-title">// Contact Me //</h1>
       <div className="contact-content">
         <h3>Get In Touch</h3>
