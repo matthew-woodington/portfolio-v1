@@ -12,21 +12,6 @@ import Footer from "./components/Footer/Footer";
 function App() {
   const [contactVisible, setContactVisible] = useState()
   const [navView, setNavView] = useState(false)
-  const [windowWidth, setWindowWidth] = useState()
-
-  const getWindowWidth = () => {
-    const { innerWidth: width } = window;
-    return width
-  }
-
-  useEffect(() => {
-    function handleResize() {
-      setWindowWidth(getWindowWidth)
-    }
-
-    window.addEventListener('resize', handleResize)
-    return() => window.removeEventListener('resize', handleResize)
-  }, [])
 
   useEffect(() => {
     window.history.scrollRestoration = 'manual'
