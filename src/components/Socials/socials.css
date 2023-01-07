@@ -56,7 +56,7 @@
   line-height: 18px;
   letter-spacing: 0.1em;
   font-family: 'SourceCodePro', 'Courier New', Courier, monospace;
-  transform: translate(0px, 0px);
+  transform: translate(2px, 0px);
 }
 
 
@@ -85,7 +85,7 @@
 
 .hide {
   scale: 2;
-  transform: translateY(100%);
+  opacity: 0;
 }
 
 @media (max-width: 768px) {

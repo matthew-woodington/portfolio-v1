@@ -1,6 +1,7 @@
 import './header.css'
 import { useState, useEffect } from 'react';
 import resume from '../../assets/pdfs/cv-mwoodington.pdf'
+import { motion } from 'framer-motion'
 
 
 function Header({ navView, changeNavView, closeNav }) {
@@ -39,7 +40,12 @@ function Header({ navView, changeNavView, closeNav }) {
   }, [])
 
   return (
-    <header className={navbar ? 'header header-scrolled' : 'header'}>
+    <motion.header
+      initial={{ y: '-100%' }}
+      animate={{ y: 0 }} 
+      transition={{ duration: 2 }}
+      className={navbar ? 'header header-scrolled' : 'header'}
+      >
         <section className="logo navlist-item" onClick={navigate}>
           {/* eslint-disable-next-line */}
           <a href="#home">// matthew</a>
@@ -62,7 +68,7 @@ function Header({ navView, changeNavView, closeNav }) {
             <div className="ham-inner"></div>
           </div>
         </button>
-    </header>
+    </motion.header>
   )
 }
 

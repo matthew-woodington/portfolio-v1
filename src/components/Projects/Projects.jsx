@@ -5,17 +5,32 @@ import pixel from '../../assets/images/pixel-perfect.png'
 import {FiGithub} from 'react-icons/fi'
 import {FiExternalLink} from 'react-icons/fi'
 import {FiVideo} from 'react-icons/fi'
+import { motion } from 'framer-motion'
 
 function Projects() {
 
   return (
     <section id='projects' className='main-section'>
       {/* eslint-disable-next-line */}
-      <h1 className="projects-title">// My Work //</h1>
+      <motion.h1
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true, amount: 0.8 }}
+        transition={{ duration: 1 }}
+        className="projects-title"
+        >
+        // My Work //
+      </motion.h1>
 
       <ul className="project-list">
 
-        <li className="project">
+        <motion.li 
+          initial={{ y: 100, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          viewport={{ once: true, amount: 0.2 }}
+          transition={{ duration: 1 }}
+          className="project"
+        >
           <div className="project-num">
             <span className='num'>01</span><span className='dot'>.</span>
           </div>
@@ -47,9 +62,15 @@ function Projects() {
               </div>
             </div>
           </div>
-        </li>
+        </motion.li>
 
-        <li className="project">
+        <motion.li 
+          initial={{ y: 100, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          viewport={{ once: true, amount: 0.2 }}
+          transition={{ duration: 1 }}
+          className="project"
+        >
           <div className="project-card card-even">
             <div class="card">
               <div class="card-img">
@@ -79,9 +100,15 @@ function Projects() {
           <div className="project-num num-even">
             <span className='num'>02</span><span className='dot'>.</span>
           </div>
-        </li>
+        </motion.li>
 
-        <li className="project">
+        <motion.li 
+          initial={{ y: 100, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          viewport={{ once: true, amount: 0.2 }}
+          transition={{ duration: 1 }}
+          className="project"
+        >
           <div className="project-num">
             <span className='num'>03</span><span className='dot'>.</span>
           </div>
@@ -111,14 +138,20 @@ function Projects() {
               </div>
             </div>
           </div>
-        </li>
+        </motion.li>
 
       </ul>
 
     {/* mobile */}
       <ul className="project-list-mobile">
 
-        <li className="mobile-project">
+        <motion.li
+          initial={{ y: 100, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          viewport={{ once: true, amount: 0.1 }}
+          transition={{ duration: 1 }} 
+          className="mobile-project"
+        >
           <div className="mobile-num left-num">
             <span className='num-mob'>01</span><span className='dot-mob'>.</span>
           </div>
@@ -142,9 +175,15 @@ function Projects() {
                 </div>
             </div>
           </div>
-        </li>
+        </motion.li>
 
-        <li className="mobile-project">
+        <motion.li
+          initial={{ y: 100, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          viewport={{ once: true, amount: 0.1 }}
+          transition={{ duration: 1 }} 
+          className="mobile-project"
+        >
           <div className="mobile-num right-num">
             <span className='num-mob'>02</span><span className='dot-mob'>.</span>
           </div>
@@ -166,9 +205,15 @@ function Projects() {
                 </div>
             </div>
           </div>
-        </li>
+        </motion.li>
 
-        <li className="mobile-project">
+        <motion.li
+          initial={{ y: 100, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          viewport={{ once: true, amount: 0.1 }}
+          transition={{ duration: 1 }} 
+          className="mobile-project"
+        >
           <div className="mobile-num left-num">
             <span className='num-mob'>03</span><span className='dot-mob'>.</span>
           </div>
@@ -190,7 +235,7 @@ function Projects() {
                 </div>
             </div>
           </div>
-        </li>
+        </motion.li>
 
       </ul>
 

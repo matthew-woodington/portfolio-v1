@@ -2,17 +2,58 @@ import React from 'react'
 import {FiGithub} from 'react-icons/fi'
 import {FiExternalLink} from 'react-icons/fi'
 import {FiFolder} from 'react-icons/fi'
+import { motion } from 'framer-motion'
 
 function MoreProjects() {
+  const projList = {
+    hidden: {
+      opacity: 0, 
+      y: 50,
+    },
+    show: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 1,
+        staggerChildren: 0.2,
+      }
+    }
+  }
+
+  const projListItem = {
+    hidden: {
+      opacity: 0,
+      y: 50,
+    },
+    show: {
+      opacity: 1,
+      y: 0,
+    }
+  }
+
   return (
     <section className='main-section more-projects'>
       {/* eslint-disable-next-line */}
-      <h1 className='other-title'>// Other Projects //</h1>
+      <motion.h1 
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true, amount: 0.8 }}
+        transition={{ duration: 1 }}
+        className='other-title'
+      >
+        // Other Projects //
+      </motion.h1>
 
-      <ul className="other-projects-list">
+      <motion.ul
+        variants={projList}
+        initial='hidden'
+        whileInView='show'
+        viewport={{ once: true, amount: 0.1 }}
+        className="other-projects-list"
+      >
 
         {/* Calculator */}
-        <li className="other-project">
+        <motion.li variants={projListItem} className="other-project">
           <div className="other-card-content">
             <div className="other-card-main">
               <div className="other-card-head">
@@ -33,10 +74,10 @@ function MoreProjects() {
               </ul>
             </div>
           </div>
-        </li>
+        </motion.li>
 
         {/* War Game */}
-        <li className="other-project">
+        <motion.li variants={projListItem} className="other-project">
           <div className="other-card-content">
             <div className="other-card-main">
               <div className="other-card-head">
@@ -57,10 +98,10 @@ function MoreProjects() {
               </ul>
             </div>
           </div>
-        </li>
+        </motion.li>
 
         {/* GitHub */}
-        <li className="other-project">
+        <motion.li variants={projListItem} className="other-project">
           <div className="other-card-content">
             <div className="other-card-main">
               <div className="other-card-head">
@@ -82,10 +123,10 @@ function MoreProjects() {
               </ul>
             </div>
           </div>
-        </li>
+        </motion.li>
 
         {/* Wordle */}
-        <li className="other-project">
+        <motion.li variants={projListItem} className="other-project">
           <div className="other-card-content">
             <div className="other-card-main">
               <div className="other-card-head">
@@ -103,10 +144,10 @@ function MoreProjects() {
               </ul>
             </div>
           </div>
-        </li>
+        </motion.li>
 
         {/* Turn Based */}
-        <li className="other-project">
+        <motion.li variants={projListItem} className="other-project">
           <div className="other-card-content">
             <div className="other-card-main">
               <div className="other-card-head">
@@ -128,10 +169,10 @@ function MoreProjects() {
               </ul>
             </div>
           </div>
-        </li>
+        </motion.li>
 
         {/* Rest App */}
-        <li className="other-project">
+        <motion.li variants={projListItem} className="other-project">
           <div className="other-card-content">
             <div className="other-card-main">
               <div className="other-card-head">
@@ -152,9 +193,9 @@ function MoreProjects() {
               </ul>
             </div>
           </div>
-        </li>
+        </motion.li>
 
-      </ul>
+      </motion.ul>
 
       <a href='https://github.com/matthew-woodington?tab=repositories' target='_blank' rel='noreferrer' className='highlight-button view-more'>View More Work</a>
 
