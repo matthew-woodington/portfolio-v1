@@ -28,6 +28,9 @@ function MoreProjects() {
     show: {
       opacity: 1,
       y: 0,
+    },
+    hover: {
+      translateY: -4,
     }
   }
 
@@ -53,7 +56,7 @@ function MoreProjects() {
       >
 
         {/* Calculator */}
-        <motion.li variants={projListItem} className="other-project">
+        <motion.li variants={projListItem} whileHover="hover" className="other-project">
           <div className="other-card-content">
             <div className="other-card-main">
               <div className="other-card-head">
@@ -77,7 +80,7 @@ function MoreProjects() {
         </motion.li>
 
         {/* War Game */}
-        <motion.li variants={projListItem} className="other-project">
+        <motion.li variants={projListItem}  whileHover="hover" className="other-project">
           <div className="other-card-content">
             <div className="other-card-main">
               <div className="other-card-head">
@@ -101,7 +104,7 @@ function MoreProjects() {
         </motion.li>
 
         {/* GitHub */}
-        <motion.li variants={projListItem} className="other-project">
+        <motion.li variants={projListItem}  whileHover="hover" className="other-project">
           <div className="other-card-content">
             <div className="other-card-main">
               <div className="other-card-head">
@@ -126,7 +129,7 @@ function MoreProjects() {
         </motion.li>
 
         {/* Wordle */}
-        <motion.li variants={projListItem} className="other-project">
+        <motion.li variants={projListItem}  whileHover="hover" className="other-project">
           <div className="other-card-content">
             <div className="other-card-main">
               <div className="other-card-head">
@@ -147,7 +150,7 @@ function MoreProjects() {
         </motion.li>
 
         {/* Turn Based */}
-        <motion.li variants={projListItem} className="other-project">
+        <motion.li variants={projListItem}  whileHover="hover" className="other-project">
           <div className="other-card-content">
             <div className="other-card-main">
               <div className="other-card-head">
@@ -172,7 +175,7 @@ function MoreProjects() {
         </motion.li>
 
         {/* Rest App */}
-        <motion.li variants={projListItem} className="other-project">
+        <motion.li variants={projListItem}  whileHover="hover" className="other-project">
           <div className="other-card-content">
             <div className="other-card-main">
               <div className="other-card-head">
